@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: cursive, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
 }
 
 .banner h2{
-    display: block;
+    
     text-align: center;
     border-style: solid;
 }
@@ -32,13 +33,64 @@ button{
     padding: 5px 10px;
     margin: 0px 3px;
     font-size:larger;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 50px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: 3px 3px 0px 0px rgba(12, 12, 12, 0.50);
+}
+
+button:hover{
+    background-color: rgb(50, 169, 48);
+}
+
+.activo{
+    background-color: rgb(50, 169, 48);
 }
 
 a{
+    color: white;
     text-decoration: none;
 }
 
-.logo .lista{
-    display:block;
+.container{
+    position: relative;
 }
+
+.logo img{
+    height: 120px;
+}
+
+.logo{
+    top: 0px;
+    left: 0px;
+}
+
+.lista{
+    top: 30px;
+    left: 30%;
+    position: absolute;
+}
+
+li{
+    list-style: none;
+}
+
+.descripcionIdentada{
+    text-indent: 20px;
+}
+
+.lista li{
+    margin-bottom: 20px;
+}
+
+.logo{
+    position:absolute;
+}
+
+.info{
+    top: 30px;
+    left: 30%;
+    position: absolute;
+}
+
+.info p{
+    margin-bottom: 30px;
+}
+
