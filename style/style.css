@@ -47,6 +47,7 @@ nav a{
 
 nav a:hover{
     background-color: rgb(50, 169, 48);
+    transition: .4s;
 }
 
 .container{
@@ -55,6 +56,11 @@ nav a:hover{
 
 .logo img{
     height: 120px;
+    transition: .5s linear;
+}
+
+.imagen:hover{
+    transform: rotate(360deg);
 }
 
 .logo{
@@ -68,7 +74,7 @@ nav a:hover{
     position: absolute;
 }
 
-.lista2{
+.listaAbout{
     top: 30px;
     left: 15%;
     position: absolute;
@@ -82,7 +88,7 @@ li p{
     text-indent: 20px;
 }
 
-.lista li{
+.lista li, .listaAbout li{
     margin-bottom: 20px;
 }
 
