@@ -9,6 +9,9 @@ body{
     margin: 0 100px;
 }
 
+.titulo h1{
+    font-size: 3.5em;
+}
 .banner img{
     object-fit: cover;
     object-position: 0px -102px;
@@ -17,36 +20,33 @@ body{
 }
 
 .banner h2{
-    
     text-align: center;
     border-style: solid;
 }
 
 nav{
     position: absolute;
-    top: 18px;
-    left: 1110px;
-}
-
-button{
-    background-color: rgb(36, 128, 220);
-    padding: 5px 10px;
-    margin: 0px 3px;
-    font-size:larger;
-    box-shadow: 3px 3px 0px 0px rgba(12, 12, 12, 0.50);
-}
-
-button:hover{
-    background-color: rgb(50, 169, 48);
+    top: 54px;
+    left: 1113px;
 }
 
 .activo{
     background-color: rgb(50, 169, 48);
 }
 
-a{
+nav a{
     color: white;
+    font-size:larger;
     text-decoration: none;
+    background-color: rgb(36, 128, 220);
+    display: inline-block;
+    padding: 2px 20px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 0px 0px rgba(12, 12, 12, 0.50);
+}
+
+nav a:hover{
+    background-color: rgb(50, 169, 48);
 }
 
 .container{
@@ -58,13 +58,19 @@ a{
 }
 
 .logo{
-    top: 0px;
-    left: 0px;
+    top: 21px;
+    left: 36px;
 }
 
-.lista{
+.lista, .info{
     top: 30px;
-    left: 30%;
+    left: 20%;
+    position: absolute;
+}
+
+.lista2{
+    top: 30px;
+    left: 15%;
     position: absolute;
 }
 
@@ -72,7 +78,7 @@ li{
     list-style: none;
 }
 
-.descripcionIdentada{
+li p{
     text-indent: 20px;
 }
 
@@ -82,12 +88,6 @@ li{
 
 .logo{
     position:absolute;
-}
-
-.info{
-    top: 30px;
-    left: 30%;
-    position: absolute;
 }
 
 .info p{
