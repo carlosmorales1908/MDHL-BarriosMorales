@@ -27,7 +27,7 @@ body{
 nav{
     position: absolute;
     top: 54px;
-    left: 1113px;
+    left: 1000px;
 }
 
 .activo{
@@ -80,7 +80,7 @@ nav a:hover{
     position: absolute;
 }
 
-li{
+ul>li{
     list-style: none;
 }
 
@@ -100,3 +100,17 @@ li p{
     margin-bottom: 30px;
 }
 
+
+/* Rules */
+.listaAbc{
+    list-style-type: lower-alpha;
+}
+
+.lastText li{
+    list-style: circle;
+}
+
+main>p{
+    font-weight: bold;
+    font-size: large;
+}
