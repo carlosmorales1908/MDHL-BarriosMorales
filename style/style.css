@@ -84,11 +84,11 @@ ul>li{
     list-style: none;
 }
 
-li p{
+.lista li p, .listaAbout li p, .lista-reglas > ul>li>p{
     text-indent: 20px;
 }
 
-.lista li, .listaAbout li{
+.lista li, .listaAbout li, .lista-reglas li{
     margin-bottom: 20px;
 }
 
@@ -101,16 +101,48 @@ li p{
 }
 
 
-/* Rules */
+/*                                      Rules */
 .listaAbc{
     list-style-type: lower-alpha;
 }
 
-.lastText li{
+.listaAbc{
+    padding-left: 20px;
+}
+
+.last-list-rules li{
     list-style: circle;
 }
 
-main>p{
+.last-list-rules{
+    padding-left: 45px;
+}
+
+.titulo-rules{
+    text-align: center;
+}
+
+.titulo-rules p{
     font-weight: bold;
     font-size: large;
 }
+
+.lista-reglas{
+    padding: 20px 10px;
+}
+
+.lista-reglas h4{
+    display: inline-block;
+}
+
+.lista-field-regulations{
+    margin-left: 40px;
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*                                      */
