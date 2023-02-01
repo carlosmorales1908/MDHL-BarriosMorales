@@ -7,6 +7,7 @@
 
 body{
     margin: 0 100px;
+    margin-bottom: 40px;
 }
 
 .titulo h1{
@@ -51,7 +52,7 @@ nav a:hover{
 }
 
 .container{
-    position: relative;
+    display: flex;
 }
 
 .logo img{
@@ -69,9 +70,9 @@ nav a:hover{
 }
 
 .lista, .info{
-    top: 30px;
-    left: 20%;
-    position: absolute;
+    padding-top: 30px;
+    padding-left: 20%;
+    position: relative;
 }
 
 .listaAbout{
@@ -93,7 +94,7 @@ ul>li{
 }
 
 .logo{
-    position:absolute;
+    position:relative;
 }
 
 .info p{
@@ -145,4 +146,4 @@ ul>li{
     flex-wrap: wrap;
 }
 
-/*                                      */
+/*                   Footer                 */
