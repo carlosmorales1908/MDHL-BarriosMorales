@@ -7,7 +7,6 @@
 
 body{
     margin: 0 100px;
-    margin-bottom: 40px;
 }
 
 .titulo h1{
@@ -27,8 +26,8 @@ body{
 
 nav{
     position: absolute;
-    top: 54px;
-    left: 1000px;
+    top: 5em;
+    right: 7em;
 }
 
 .activo{
@@ -53,16 +52,25 @@ nav a:hover{
 
 .container{
     display: flex;
+    min-height: 20em;
 }
 
 .logo img{
-    height: 120px;
+    height: 15em;
     transition: .5s linear;
 }
 
-.imagen:hover{
-    transform: rotate(360deg);
+.img1 img{
+    height: 13em;
+    border-radius: 10px;
+    position: relative;
+    top: 2em;
+    left: 8em;
+    box-shadow: 3px 3px 0px 0px rgba(12, 12, 12, 1);
 }
+/* .imagen:hover{
+    transform: rotate(360deg);
+} */
 
 .logo{
     top: 21px;
@@ -70,22 +78,22 @@ nav a:hover{
 }
 
 .lista, .info{
-    padding-top: 30px;
-    padding-left: 20%;
+    padding-top: 2.5em;
+    padding-left: 10%;
     position: relative;
 }
 
 .listaAbout{
-    top: 30px;
-    left: 15%;
-    position: absolute;
+    padding-top: 2.5em;
+    padding-left: 10%;
+    position: relative;
 }
 
 ul>li{
     list-style: none;
 }
 
-.lista li p, .listaAbout li p, .lista-reglas > ul>li>p{
+.lista li p, .listaAbout li p, .lista-reglas dd{
     text-indent: 20px;
 }
 
@@ -105,10 +113,12 @@ ul>li{
 /*                                      Rules */
 .listaAbc{
     list-style-type: lower-alpha;
+    text-indent: 0px;
+    padding-left: 20px;
 }
 
-.listaAbc{
-    padding-left: 20px;
+.listaAbc li{
+    margin-bottom: 0.5em;
 }
 
 .last-list-rules li{
@@ -132,12 +142,21 @@ ul>li{
     padding: 20px 10px;
 }
 
-.lista-reglas h4{
-    display: inline-block;
+.lista-reglas dt{
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .lista-field-regulations{
     margin-left: 40px;
+}
+
+.lista-field-regulations h4{
+    text-indent: 0px;
+}
+
+.lista-reglas dt{
+    margin: .5em;
 }
 
 .container-flex{
@@ -146,4 +165,71 @@ ul>li{
     flex-wrap: wrap;
 }
 
-/*                   Footer                 */
+
+/*                   game information                 */
+.game-information h2{
+    text-align: center;
+}
+
+.tabla{
+    height: 17em;
+    margin: 3em 0em;
+}
+
+.tabla img{
+    position: relative;
+    z-index: 0;
+    width: 41.2em;
+    height: 17.3em;
+    bottom: 17.3em;
+    left: 20.6em;
+    opacity: .4;
+}
+table{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+p span{
+    font-weight: bold;
+}
+
+.aditional-info-rules{
+    padding-top: 2em;
+}
+
+.questions{
+    padding-top: 3em;
+}
+
+.contact-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*                      footer              */
+footer{
+    margin-top: 20px;
+    background-color: black;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: 13em;
+    color: black;
+    height: 11em;
+}
+
+.footer-info{
+    padding-top: 3.5em;
+    text-align: center;
+}
