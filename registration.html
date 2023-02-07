@@ -21,7 +21,7 @@
             <a href="index.html">Home</a>
             <a href="game-information.html">Game Information</a>
             <a href="rules.html">Rules</a>
-            <a href="registration-form.html" class="activo">Registration</a>
+            <a href="registration.html" class="activo">Registration</a>
             <a href="aboutUs.html">About</a>
             <a href="contact.html">Contact</a>
         </nav>
@@ -79,19 +79,16 @@
             
             <fieldset class="closest-school">
                 <h3>Which elementary school do you live near?</h3> 
-                <h3>Closest School:</h3>
-                <input type="radio" name="closest-school" id="school1" value="aj-katzenmaier" class="input-border">
-                <label for="school1" class="label-distance">AJ Katzenmaier</label>
-                <input type="radio" name="closest-school" id="school2" value="marjorie-p-hart" class="input-border">
-                <label for="school2" class="label-distance">Marjorie P Hart</label>
-                <input type="radio" name="closest-school" id="school3" value="greenbay" class="input-border">
-                <label for="school3"  class="label-distance">Greenbay</label>
-                <input type="radio" name="closest-school" id="school4" value="north-elementary" class="input-border">
-                <label for="school4" class="label-distance">North Elementary</label>
-                <input type="radio" name="closest-school" id="school5" value="howard-a-yeager" class="input-border">
-                <label for="school5" class="label-distance">Howard A Yeager</label>
-                <input type="radio" name="closest-school" id="school6" value="south-elementary" class="input-border">
-                <label for="school6" class="label-distance">South Elementary</label>
+                <label for="closest-school">Closest School:</label>
+                <select name="closest-school" id="closest-school">
+                    <option value="" selected disabled>--Please choose an option--</option>
+                    <option value="aj-katzenmaier">AJ Katzenmaier</option>
+                    <option value="marjorie-p-hart">Marjorie P Hart</option>
+                    <option value="greenbay">Greenbay</option>
+                    <option value="north-elementary">North Elementary</option>
+                    <option value="howard-a-yeager">Howard A Yeager</option>
+                    <option value="south-elementary">South Elementary</option>
+                </select>
             </fieldset>
 
             

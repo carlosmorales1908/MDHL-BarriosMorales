@@ -228,29 +228,53 @@ p span{
 }
 
 .maps{
+    background-image: url(../assets/hockey_2.jpg);
+    background-size: auto;
+    background-position-x: -12em;
+    border-radius: 0px 0px 50px 50px;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 4em;
+    align-content: center;
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 }
 
 .schools-title{
     font-size: 3em;
     text-align: center;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(217deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 8%, rgba(255,218,0,1) 51%, rgba(255,0,0,1) 76%);
+    -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
 }
 
 .card-map{
-    margin: 3em;
+    padding: 1.3em;
+    margin: 1em;
+    border-radius: 50px;
+    background: linear-gradient(217deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 8%, rgba(255,218,0,1) 51%, rgba(255,0,0,1) 76%);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .card-map h4{
     text-align: center;
     font-size: 1.5em;
     padding-bottom: 1em;
+}
+
+.card-map iframe{
+    border-radius: 30px
 }
 
 /*                                          registration form      */
